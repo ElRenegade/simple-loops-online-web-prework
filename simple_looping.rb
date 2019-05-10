@@ -1,11 +1,14 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
+counter = 0
+if counter < 7
+  loop do
+    puts "Welcome to Flatiron School's Web Development Course!"
+    counter += 1
+    end
+end
 
-loop do
-  if number_of_times < 7
-  puts "Welcome to Flatiron School's Web Development Course!"
-  end
 end
 
 
